@@ -1,0 +1,11 @@
+ECHO ODYSSEY — COMPLETE VISION EDITION
+
+1. Extract this ZIP once.
+2. Open the ECHO_ODYSSEY_COMPLETE_VISION folder in VS Code.
+3. In the VS Code terminal run: py -m http.server 8003
+4. Open http://localhost:8003/ in Chrome.
+5. Open Vision, choose a photo, then select Read Text or Identify Object.
+
+All previous features remain in this one project.
+Object recognition uses MobileNet downloaded from public CDNs on first use. It is not a general-purpose scene understanding system and may misidentify cauliflower or other items. Internet is needed on first use.
+Gmail sign-in and sending require the existing Google OAuth setup and browser testing.
